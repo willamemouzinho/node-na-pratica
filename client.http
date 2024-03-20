@@ -1,0 +1,16 @@
+POST http://localhost:3333/api/links
+Content-Type: application/json
+
+{
+    "code": "github",
+    "url": "https://github.com/"
+}
+
+###
+GET http://localhost:3333/api/links
+
+###
+GET http://localhost:3333/github2
+
+###
+GET http://localhost:3333/api/metrics
